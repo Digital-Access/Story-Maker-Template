@@ -73,6 +73,7 @@ const endGame = () => {
     endContainer.style.display = 'flex';
     endText.textContent = config.end_text;
     endImg.src = config.end_image;
+    titleContainer.style.display = 'none';
 }
 
 const textNodes = [{
