@@ -29,6 +29,17 @@ body{
     margin-bottom: 2rem;
 }
 
+.imageContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    margin-top: 1rem;
+}
+
+.image{
+  max-height: 10rem;
+}
+
 .optionBtns{
     display: grid;
     grid-template-columns: repeat(2, auto);
